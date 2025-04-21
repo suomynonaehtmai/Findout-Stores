@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Findout The Star</title>
+        <link rel="stylesheet" href="style.css" />
+            <style type="text/css">
+    body{
+        font-family: Arial, sans-serif;
+        padding: 0;
+        margin: 0;
+        background-image: url(R.jpg);
+        color: red;
+    }
+    Header{
+        background-image: url(p.jpg);
+        color: red;
+        padding: 20px;
+        text-align: none;
+    }
+    nav a{
+        color: yellow;
+        margin: 0 15px;
+        text-decoration: none;
+    }
+    section{
+        padding: 20px;
+    }
+    footer{
+        background-color: yellow;
+    }
+
+        </style>
+        <style type="text/css">
+        .about-section{
+            padding: 40px 20px;
+            background-color: yellow;
+            text-align: center;
+        }
+        .about-content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .about.image{
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .about.text{
+            text-align: left;
+            padding: 0 20px;
+        }
+        </style>
+</head>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+    <a href="tel:+254740573961"><i class="fab fa-phone"></i>Call Us</a>
+    <a href="https://wa.me/+254740573961" target="_blank"><i class="fab fa-whatsapp"></i>WhatsApp</a>
+    <a href="https://m.me/findoutstores" target="_blank"><i class="fab fa-facebook-messenger"></i>Messenger</a>
+    <body>
+        <header>
+            <h1>Welcome to Findout Stores</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About Us</a></a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="home" class="home-section">
+            <div class="home-content">
+                <p>Discover top-quality products at unbeatable prices. Shop with us and enjoy fast delivery, great customer service, and exclusive offers.</p>
+            </div>
+        </section>
+        <section id="advertise" class="advertise-section">
+            <h2>Advertise With Us</h2>
+            <p>Want to promote your product or business? We offer add spaces, product features and banner placements to help you reach more customers.</p>
+        </section>
+        <div class="add-banner">
+            <a href="https://findoutthestar.com" target="_blank">
+            <img src="company-ad.jpg" alt="Sponsored Ad" />
+            </a>
+        </div>
+        <script src="script.js"></script>
+        <main>
+            <section id="products">
+                <h2>Our Products</h2>
+                <div class="product-list">
+                    <!--Products will be inserted here by JavaScript-->
+                </div>
+            </section>
+        </main>               <script>
+document.getElementById("contactform").addEventListener("submit",function (e) {e.preventDefault();alert("Thank You for contacting us!");});
+</script>
+        <footer>
+            <section id="about" class="about-section">
+                <h2>About Us</h2>
+                <div class="about-content">
+                    <img src="OIP.jpg" alt="Our Team" class="about-image" />
+                    <div class="about-text">
+                        <p>We are a passionate team dedicated to providing exceptional services through our quality products. With years of experience in the industry , our mission is to deliver quality, reliability, and customer satisfaction.</p>
+                        <p>Whether you are a startup or a well-established business, We're here to help you grow and succeed. </p>
+                    </div>
+                </div>
+            </section>
+                <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required="required" />
+                <input type="email" placeholder="Your Phone or Email" required="required" />
+                <button type="submit">Send</button>
+
+            </form>
+        </section>
+
+            <p>&copy;2025 Findout Stores</p>
+        </footer>
+    </body>
+</html>
